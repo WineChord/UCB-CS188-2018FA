@@ -11,7 +11,7 @@ Environment: Python 3.6.6 (using Anaconda)
 * *DFS, BFS, UCS​* (Uniform Cost Search)
 * *A\*​* Search
 
-In *A\**​$ search, the essential problem is to find an appropriate heuristic function *h*​. It should satisfy the following conditions:
+In *A\**​ search, the essential problem is to find an appropriate heuristic function *h*​. It should satisfy the following conditions:
 
 * admissible: *0 <= h(n) <= h\*(n)​*, where *h\*(n)* is the true cost to a nearest goal
 * consistency: *f* ​ never decreases, where *f(n)=g(n)+h(n)*
