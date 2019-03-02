@@ -8,17 +8,17 @@ Environment: Python 3.6.6 (using Anaconda)
 
 #### Proj1 Search
 
-* $DFS, BFS, UCS$ (Uniform Cost Search)
-* $A^*$ Search
+* *DFS, BFS, UCS​* (Uniform Cost Search)
+* *A\*​* Search
 
-In $A^*$ search, the essential problem is to find an appropriate heuristic function $h$. It should satisfy the following conditions:
+In *A\**​$ search, the essential problem is to find an appropriate heuristic function *h*​. It should satisfy the following conditions:
 
-* admissible: $0\le h(n) \le h^*(n)$, where $h^*(n)$ is the true cost to a nearest goal
-* consistency: $f$ never decreases, where $f(n)=g(n)+h(n)$
+* admissible: *0 <= h(n) <= h\*(n)​*, where *h\*(n)* is the true cost to a nearest goal
+* consistency: *f* ​ never decreases, where *f(n)=g(n)+h(n)*
 
-$DFS,BFS,UCS,A^*​$ essentially use the same idea. The differences between them are the strategies applied to selecting next node to expand.
+*DFS,BFS,UCS,A\*​* essentially use the same idea. The differences between them are the strategies applied to selecting next node to expand.
 
-Below shows the $A^*$ food search
+Below shows the *A\** food search
 
 ![](astarfoodsearch.gif) 
 
@@ -35,4 +35,3 @@ Expectimax takes advantage of probability theory. It is also an extension to Min
 Below is a running of Expectimax with `betterEvaluationFunction`
 
 ![](expectimax.gif)
-
