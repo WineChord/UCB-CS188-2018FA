@@ -9,7 +9,7 @@ Environment: Python 3.6.6 (using Anaconda)
 #### Proj1 Search
 
 * *DFS, BFS, UCS​* (Uniform Cost Search)
-* *A\*​* Search
+* *A\*​* Search 
 
 In *A\**​ search, the essential problem is to find an appropriate heuristic function *h*​. It should satisfy the following conditions:
 
@@ -35,3 +35,4 @@ Expectimax takes advantage of probability theory. It is also an extension to Min
 Below is a running of Expectimax with `betterEvaluationFunction`
 
 ![](expectimax.gif)
+
